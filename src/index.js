@@ -1,3 +1,6 @@
-module.exports = function isNull(obj) {
+module.exports = isNull;
+
+
+function isNull(obj) {
     return obj === null;
-};
+}
