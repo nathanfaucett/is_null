@@ -1,6 +1,6 @@
 module.exports = isNull;
 
 
-function isNull(obj) {
-    return obj === null;
+function isNull(value) {
+    return value === null;
 }
