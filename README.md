@@ -1,4 +1,11 @@
 isNull
 =======
 
-isNull for the browser and node.js
+checks if value is null
+
+```javascript
+var isNull = require("@nathanfaucett/is_null");
+
+
+isNull(null); // true
+```
